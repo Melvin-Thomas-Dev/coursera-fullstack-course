@@ -94,9 +94,10 @@ body {
 }
 #chicken-tile, #beef-tile, #sushi-tile{
   padding: 15px;
-  margin: 25px 25px 25px 25px;
+  /* margin: 25px 25px 25px 25px; */
   position: relative;
   align-self: center; 
+  margin-bottom: 30px;
   /* background-color: aquamarine; */
   /* border: 20px solid transparent;*/
 }
@@ -110,11 +111,16 @@ body {
 #sushi-tile{
   background-color: lightgoldenrodyellow;
 }
-#chicken-title p,#beef-title p,#sushi-title p{
+/* #chicken-title p,#beef-title p,#sushi-title p{
   font-size: 1.3em;
   font-weight: 700;
   text-align: center;
   margin-bottom: 15px;
+} */
+
+div >h4{
+  font-weight: 700;
+  margin-bottom: 20px;
 }
 
 
